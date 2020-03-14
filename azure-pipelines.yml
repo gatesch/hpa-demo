@@ -10,7 +10,7 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-- script: touch /tmp/success
+- script: touch /tmp/success2
   displayName: 'Run a one-line script'
 
 - script: |
