@@ -6,8 +6,6 @@
 trigger:
 - master
 
-pool: default
-
 steps:
 - script: touch /tmp/success
   displayName: 'Run a one-line script'
