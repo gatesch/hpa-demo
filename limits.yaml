@@ -3,7 +3,7 @@ kind: LimitRange
 apiVersion: v1
 metadata:
   name: limits
-  namespace: hpa
+  namespace: magnecomp
 spec:
   limits:
   - type: Pod
