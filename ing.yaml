@@ -5,7 +5,7 @@ metadata:
   namespace: magnecomp
 spec:
   rules:
-  - host: test.example.local
+  - host: magnecomp.example.local
     http:
       paths:
       - path: /
